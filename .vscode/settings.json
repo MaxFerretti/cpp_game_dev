@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "D:/Appoggio/Max/Projects/cppRepo/cpp_game_dev/Assignments/Week2",
+    "cmake.cmakePath": "C:/Program Files/CMake/bin/cmake.exe",
+    "cmake.generator": "Ninja",
+    "cmake.buildDirectory": "${workspaceFolder}/Assignments/Week2/build"    
+}
