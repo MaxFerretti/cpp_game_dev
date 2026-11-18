@@ -22,5 +22,5 @@ class Staff : public CollegeUser
 
         StaffRole getRole() const;
 
-        std::string toString() override;
+        std::string toString() const override;
 };

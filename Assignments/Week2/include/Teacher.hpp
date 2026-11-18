@@ -7,7 +7,7 @@ enum Subject
     MATH,
     SCIENCE,
     HISTORY,
-    LANGUAGE,
+    ENGLISH,
     ART
 };
 
@@ -24,5 +24,5 @@ class Teacher : public Staff
 
         Subject getTeachingSubject() const;
 
-        std::string toString() override;
+        std::string toString() const override;
 };

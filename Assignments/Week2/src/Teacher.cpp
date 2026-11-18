@@ -25,13 +25,15 @@ std::string subjectToString(Subject subject)
             return "Math";
         case Subject::SCIENCE:
             return "Science";
+        case Subject::ENGLISH:
+            return "English";
         case Subject::HISTORY:
             return "History";
     }
     return "Unknown";
 }
 
-std::string Teacher::toString()
+std::string Teacher::toString() const
 {
     return std::format("{} Teaching Subject: {}", Staff::toString(), subjectToString(m_subject));
 }

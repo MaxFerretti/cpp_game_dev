@@ -15,5 +15,5 @@ class CollegeUser : public User
         // Once inside the college system, the InstitutionalId remains constant for the user.
         size_t getInstitutionalId() const;
 
-        virtual std::string toString();
+        virtual std::string toString() const;
 };

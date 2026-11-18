@@ -28,7 +28,7 @@ std::string roleToString(StaffRole role)
     }
     return "Unknown";
 }
-std::string Staff::toString()
+std::string Staff::toString() const
 {
     return std::format("{} Role: {}", CollegeUser::toString(),  roleToString(Role));
 }

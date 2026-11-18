@@ -7,7 +7,7 @@ Student::Student(size_t SSN, const std::string& FIRSTNAME, const std::string& LA
 }
 
 
-std::string Student::toString()
+std::string Student::toString() const
 {
     return std::format("{} Student", CollegeUser::toString());
 }

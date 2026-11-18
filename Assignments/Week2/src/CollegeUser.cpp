@@ -10,7 +10,7 @@ size_t CollegeUser::getInstitutionalId() const
     return InstitutionalId;
 }
 
-std::string CollegeUser::toString()
+std::string CollegeUser::toString() const
 {
     return std::format("ID: [{}]  Name: {} {} {}-{}-{}", getInstitutionalId(), getFirstname(), getLastname(), getBirthDate().year(), getBirthDate().month(), getBirthDate().day());
 }
